@@ -1,0 +1,55 @@
+<view class="section">
+    <view class="spot-item spot-item1" style="display:flex;align-items:center;" bindtap="toast">
+        <view class="spot-addr" style="display: flex; flex-direction: column;">
+            <text>尖山</text>
+            <text class="typeChao">源头潮</text>
+        </view>
+        <!--<view class="spot-wea"><image src="../../images/1.png"></image></view>-->
+        <view class="spot-info">
+             <view class="spot-chao">早潮{{jianShanXi}} 晚潮{{jianShanChao}}</view>
+            
+            <!--<view class="spot-tel">景区电话：0573-87034899</view>-->
+        </view>
+    </view>
+    <view class="spot-item spot-item2" style="display:flex;align-items:center;">
+        <view class="spot-addr" style="display: flex; flex-direction: column;">
+            <text>大缺口</text>
+            <text class="typeChao">碰头潮</text>
+        </view>
+        <!--<view class="spot-wea"><image src="../../images/1.png"></image></view>-->
+        <view class="spot-info">
+            <view class="spot-chao">早潮{{bigKouXi}} 晚潮{{bigKouChao}}</view>
+            <!--<view class="spot-tel">景区电话：0573-87034899</view>-->
+        </view>
+    </view>
+    <view class="spot-item spot-item3" style="display:flex;align-items:center;">
+        <view class="spot-addr" style="display: flex; flex-direction: column;">
+            <text>盐官</text>
+            <text class="typeChao">一线潮</text>
+        </view>
+        <!--<view class="spot-wea"><image src="../../images/1.png"></image></view>-->
+        <view class="spot-info">
+            <view class="spot-chao">早潮{{yanGuanXi}} 晚潮{{yanGuanChao}}</view>
+            <!--<view class="spot-tel">景区电话：0573-87034899</view>-->
+        </view>
+    </view>
+    <view class="spot-item spot-item4" style="display:flex;align-items:center;">
+        <view class="spot-addr" style="display: flex; flex-direction: column;">
+            <text>老盐仓</text>
+            <text class="typeChao">回头潮</text>
+        </view>
+        <!--<view class="spot-wea"><image src="../../images/1.png"></image></view>-->
+        <view class="spot-info">
+            <view class="spot-chao">早潮{{yanChangXi}} 晚潮{{yanChangChao}}</view>
+            <!--<view class="spot-tel">景区电话：0573-87034899</view>-->
+        </view>
+    </view>
+    <!--<view class="spot-item spot-item5" style="display:flex;align-items:center;">
+        <view class="spot-addr">杭州</view>
+        <view class="spot-wea"><image src="../../images/1.png"></image></view>
+        <view class="spot-info">
+            <view class="spot-chao">早潮12：20 晚潮13：40</view>
+            <view class="spot-tel">景区电话：0573-87034899</view>
+        </view>
+    </view>-->
+</view>

@@ -1,0 +1,106 @@
+/**index.wxss**/
+page{height: 100%;}
+view text,view{
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
+}
+.container-inner{
+  padding: 0rpx 20rpx;
+  background: url("http://www.zjhaining.com/chaoxun/img/bg4.jpg") no-repeat top center;
+  
+  background-size:cover;
+  opacity: 0;
+  height:100%;
+
+}
+.loading{
+    position: absolute;
+    left:50%;
+    top:50%;
+    width:120rpx;
+    height:120rpx;
+    margin-left: -60rpx;
+    margin-top: -60rpx;
+}
+.distance{
+  display: flex;
+  flex-direction:column;
+  align-items: flex-end;
+  padding-top:40rpx;
+}
+.distance image{margin-right: 50rpx;}
+.distance-icon {
+  width: 64rpx;
+  height: 64rpx;
+  margin: 20rpx;
+}
+.distance-text {
+  color: #fff;
+  font-size: 30rpx;
+}
+.distance .distance-text{
+  width:180rpx;
+  text-align: center;
+}
+.weather{
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  justify-content:center;
+  text-align: center;
+}
+.chao-info{
+  color:#fff;
+  display: flex;
+  flex-direction: column;
+  margin-top:130rpx;
+  font-size: 30rpx;
+}
+.chao-info view text{
+  line-height: 40rpx;
+  padding-right: 20rpx;
+}
+.section{
+  display: flex;
+  flex-direction: row;
+  height: 100rpx;
+  align-items:center;
+}
+.weatherIcon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 10rpx;
+}
+.weatherIcon image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.area{
+  font-weight: bold;
+  font-size: 40rpx;
+}
+.chao-info .zaoChao{
+  font-size: 130rpx;
+  /*font-weight: bold;*/
+  letter-spacing: 0rpx;
+  line-height: 140rpx;
+  text-shadow: 0px 0px 12px rgba(0, 0, 0, .3);
+}
+.weather{
+  margin-top:60rpx;
+  border-top:1px solid #ccc;
+  padding: 30rpx 0;
+  font-size: 26rpx;
+  line-height: 50rpx;
+}
+.degree{
+  font-size: 30rpx;
+  text-align: center;
+  margin-left: 10rpx;
+}
+.monday{
+  border-left:1px solid #ccc;
+  border-right:1px solid #ccc;
+  padding: 0 20rpx;
+  margin: 0 20rpx
+}

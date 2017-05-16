@@ -1,0 +1,55 @@
+page{
+  height: 100%;
+}
+.section{
+  height: 100%;
+}
+.spot-item1{
+    background: url("http://www.zjhaining.com/chaoxun/img/bg.png") no-repeat center,
+                url("http://www.zjhaining.com/chaoxun/img/spot_1.jpg") no-repeat center;
+    background-size: 100% auto;
+}
+.spot-item2{
+    background-color: rgba(0, 0, 0, .9);
+    background: url("http://www.zjhaining.com/chaoxun/img/bg.png") no-repeat center,
+                url("http://www.zjhaining.com/chaoxun/img/spot_2.jpg") no-repeat rgba(0, 0, 0, .9) center;
+    background-size: 100% auto;
+}
+.spot-item3{
+    background: url("http://www.zjhaining.com/chaoxun/img/bg.png") no-repeat center,
+                url("http://www.zjhaining.com/chaoxun/img/spot_3.jpg") no-repeat center;
+    background-size: 100% auto;
+}
+.spot-item4{
+   
+    background: url("http://www.zjhaining.com/chaoxun/img/bg.png") no-repeat center,
+                url("http://www.zjhaining.com/chaoxun/img/spot_4.jpg") no-repeat center;
+    background-size: 100% auto;
+}
+.spot-item{
+    width: 100%;
+    height: 25%;
+    color: #fff;
+}
+
+.spot-wea{
+    margin:0 20rpx 0 60rpx;
+}
+.spot-wea image{
+    width: 60rpx;
+    height: 60rpx;
+}
+.spot-addr{
+    font-size:42rpx;
+    margin-left: 60rpx;
+    width: 200rpx;
+}
+.spot-chao{
+    font-size:30rpx;
+}
+.spot-tel{
+    font-size: 28rpx;
+}
+.typeChao{
+    font-size: 26rpx;
+}

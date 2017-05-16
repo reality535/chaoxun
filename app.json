@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/spot/spot"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "海宁观潮指南",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "selectedColor": "#00b4ff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath":"images/tab1.png",
+      "selectedIconPath":"images/tab4.png",
+      "text": "盐官潮汛"
+    },{
+      "pagePath": "pages/spot/spot",
+      "iconPath":"images/tab2.png",
+      "selectedIconPath":"images/tab5.png",
+      "text": "其它潮汛"
+    }]
+  }
+
+}

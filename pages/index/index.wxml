@@ -1,0 +1,81 @@
+<!--index.wxml-->
+<view class="container">
+  <image src="../../images/loading.gif" mode="aspectFit" class="loading" style="opacity:{{loading_opacity}}"></image>
+  <view animation="{{animationData}}" class="container-inner" mode="aspectFill">
+    <view class="distance">
+      <image class="distance-icon" src="../../images/distance_icon.png"></image>
+      <text style="z-index:1000;" class="distance-text">距离盐官景区还有{{distance}}km</text>
+    </view>
+    
+    <view class="chao-info">
+      <text class="area">{{area}}</text>
+      <text>今日潮汛</text>
+      <view>
+        <text class="zaoChao">{{firstDay[0].xi}}</text>
+        <text>晚潮</text>
+      </view>
+      <view wx:if="{{firstDay[2] != '初一'}}">
+        <text>早潮</text>
+        <text>{{firstDay[0].chao}}</text>
+      </view>
+      <view>
+        <text>气温{{now_temperature}}℃</text>
+        <text>{{now_weather}}</text>
+        <!--<text>湿度70%</text>-->
+        <text>{{wind_direction}}风{{wind_scale}}级</text>
+      </view>
+      <view class="date">
+        <text>{{year}}/{{month}}/{{day}}</text>
+        <text>周{{week}}</text>
+        <text>{{lunarMonth}}{{lunarDay}}</text>
+      </view>
+      <view>
+        <text style="font-size:24rpx;">因天气等因素，观潮请提前40分钟候潮。</text>
+      </view>
+      <!--<view>
+        <text>10:00发布</text>
+      </view>-->
+    </view>
+    <view class="weather">
+
+      <view class="tomorrow">
+        <view>今天</view>
+        <view class="section">
+          <view class="weatherIcon"><image src="../../images/{{code_today}}.png"></image></view>
+          
+          <view class="zaowan">
+            <view>早潮{{firstDay[0].chao}}</view>
+            <view>晚潮{{firstDay[0].xi}}</view>
+          </view>
+        </view>
+        <view class="degree">{{today_weather}}<text>{{today_low}}</text>~<text>{{today_high}}</text>℃</view>
+      </view>
+
+      <view class="monday">
+        <view>明天</view>
+        <view class="section">
+          <view class="weatherIcon"><image src="../../images/{{code_tomorrow}}.png"></image></view>
+          
+          <view class="zaowan">
+            <view>早潮{{secondDay[0].chao}}</view>
+            <view>晚潮{{secondDay[0].xi}}</view>
+          </view>
+        </view>
+        <view class="degree">{{tomorrow_weather}}<text>{{tomorrow_low}}</text>~<text>{{tomorrow_high}}</text>℃</view>
+      </view>
+
+      <view class="tuseday">
+        <view>后天</view>
+        <view class="section">
+          <view class="weatherIcon"><image src="../../images/{{code_thirdDay}}.png"></image></view>
+          
+          <view class="zaowan">
+            <view>早潮{{thirdDay[0].chao}}</view>
+            <view>晚潮{{thirdDay[0].xi}}</view>
+          </view>
+        </view>
+        <view class="degree">{{thirdDay_weather}}<text>{{thirdDay_low}}</text>~<text>{{thirdDay_high}}</text>℃</view>
+      </view>
+    </view>
+  </view>
+</view>
